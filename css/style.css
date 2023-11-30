@@ -18,7 +18,7 @@ a { text-decoration: none; color: inherit; }
 a img { border: none; } 
 /* 하위버젼 브라우저에 링크걸린 이미지 줄생김 현상 없애기 */
 /* layout */
-#wrap { width: 100%; min-width: 1400px;} 
+#wrap { width: 100%;} 
 #wrap header { width: 100%; height: 100px; position: fixed; /* 고정 */
  top: 0; left: 0; z-index: 3; /* 순서 */
  background-color: rgba(0, 0, 0, 0.2); } 
@@ -45,7 +45,7 @@ a img { border: none; }
 /* ========================= main ========================= */
 #wrap section.main { background: url("../images/vis_1.jpg")no-repeat center/cover; 
     width: 100%; height: 1000px; position: relative; 
-    /* min-width: 1400px; */
+    min-width: 1400px;
      background-attachment: fixed; } 
 #wrap section.main .mainTitle { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff; text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* x, y, 퍼짐, 색 - 투명도 50% */
  letter-spacing: -1px; } 
@@ -65,7 +65,7 @@ a img { border: none; }
 /* ========================= about ========================= */
 #wrap section.about { width: 100%; background-color: #fff; padding: 80px 0;
      min-width: 1400px; } 
-#wrap section.about ul { width: 1400px; margin: 50px auto; min-width: 1400px; display: flex; } 
+#wrap section.about ul { width: 1400px; margin: 50px auto; display: flex; } 
 #wrap section.about ul li { width: 33.3333%; } 
 #wrap section.about ul li a { display: block; } 
 /* img */
@@ -97,7 +97,7 @@ a img { border: none; }
 /* ========================= me ========================= */
 #wrap section.me { width: 100%; background: url("../images/me.jpg")no-repeat center/cover;
      position: relative; padding: 80px 0; margin-bottom: 150px; 
-    /* min-width: 1400px; */ } 
+    min-width: 1400px; } 
 #wrap section.me .list { width: 1400px; margin: 50px auto; border-top: 2px solid #000; } 
 #wrap section.me .list>ul { padding-left: 30px; } 
 #wrap section.me .list>ul>li { padding: 30px 30px 30px 10px; /* 상,오,하,왼 */}
@@ -123,8 +123,8 @@ a img { border: none; }
 #wrap section.me .button a:hover,
 #wrap section.me .button a:focus { background-color: #f86010; } 
 /* ========================= sns ========================= */
-#wrap section.sns {  min-width: 1400px;width: 100%; height: 650px;
-     margin-bottom: 60px; background-color: #fff; } 
+#wrap section.sns { width: 100%; height: 650px;
+     margin-bottom: 60px; background-color: #fff; min-width: 1400px; } 
 #wrap section.sns ul { width: 1400px; margin: 50px auto; display: flex; justify-content: space-between; } 
 #wrap section.sns ul li { width: 32.5%; } 
 #wrap section.sns ul li a { display: block; width: 100%; height: 100px;}
