@@ -148,7 +148,7 @@ a img { border: none; }
 /* 시계 아이콘 */
 #wrap section.sns ul li a .snsBottom p.time::before { content: ' \f017 '; font-family: FontAwesome; font-size: 15px; position: absolute; left: 0; top: 5px; } 
 /* ========================= footer ========================= */
-#wrap footer { width: 100%; border-top: 1px solid #999; padding: 30px 0 50px 0; } 
+#wrap footer { width: 100%; border-top: 1px solid #999; padding: 30px 0 50px 0;  min-width: 1400px; } 
 #wrap footer .footerInner { width: 1400px; margin: 0 auto; margin-bottom: 50px; display: flex; justify-content: space-between; } 
 #wrap footer .footerInner .blogo img { margin-top: 10px; } 
 #wrap footer .footerInner .copyright p { margin-top: 5px; text-align: center; color: #333; } 
